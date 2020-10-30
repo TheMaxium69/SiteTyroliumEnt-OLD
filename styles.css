@@ -1,0 +1,383 @@
+/*page entiere*/
+body{
+	background-color: black;
+	padding: 0px;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	margin-bottom: 0;	
+}
+/*Haut de pase*/
+header div.head{
+	font-weight: 100;
+	font-variant: small-caps;
+	font-family: Gill Sans, sans-serif;
+	font-size: 50px;
+	background-color: #000000;	
+	color: #FFFFFF;
+	padding: 8px;
+}
+
+header div.head div.img{
+	font-weight: bold;
+}
+
+header div.head div.img img{
+	width: 60px;
+}
+
+
+/*Contenu*/
+
+/*Debut*/
+div.d1{
+	background-image: url("http://tyrolium.fr/Contenu/Image/Background1.png");
+	background-size: 100%;
+	padding: 0px;
+}
+div.d1:hover div.txt{
+	background-color: #3C3C3C;
+	transition: 1.3s all;
+}
+
+div.d1 div.txt{
+	padding-left: 35px;
+	margin-left: 40%;
+	background-color: #131313;
+	display: inline-block;
+	width: 50%;
+	color: #FFFFFF;
+	padding-bottom: 60px;
+}
+div.d1 div.txt p.Titre{
+	font-size: 35px;
+	padding-top: 30px;
+	font-weight: bold;
+	font-variant: small-caps;
+	font-family: Gill Sans, sans-serif;
+}
+div.d1 div.txt p.SousTitre{
+	font-size: 27px;
+	margin-left: 30px;
+	font-variant: small-caps;
+	font-family: Gill Sans, sans-serif;
+}
+div.d1 div.txt p.Text{
+	font-size: 25px;
+	margin-left: 40px;
+	margin-right: 45px;
+	margin-bottom: 45px;
+	font-variant: small-caps;
+	font-family: Gill Sans, sans-serif;
+}
+
+/*Separation*/
+div.d2{
+	background-color: #131313;
+	padding: 10px;
+}
+
+/*No projey mis en forme*/
+div.d3{
+	background-image: url("http://tyrolium.fr/Contenu/Image/Background2.png");
+	background-repeat: no-repeat;
+	background-size: 1500px;
+	padding: 100px;
+}
+
+div.d3 div.texte{
+	margin-right: 30%;
+	margin-left: 30%;
+	background-color: #212121;
+	padding: 30px;
+	color: white;
+}
+
+div.d3:hover div.texte{
+	background-color: #3C3C3C;
+	transition: 1.3s all;
+}
+
+div.d3 div.texte p.Titre{
+	font-size: 20px;
+	font-variant: small-caps;
+	font-family: Gill Sans, sans-serif;
+}
+
+div.d3 div.texte p.SousTitre{
+	font-size: 15px;
+	font-variant: small-caps;
+	font-family: Gill Sans, sans-serif;
+}
+
+
+/*Projet*/
+div.d4{
+	background-color: #212121;
+	padding: 10px;
+}
+
+div.d4 div.Pro{
+	background-color: #3C3C3C;
+	display: inline-block;
+	margin-left: 5%;
+	padding-bottom: 8px;
+	font-variant: small-caps;
+	font-family: Gill Sans, sans-serif;
+}
+
+div.d4 div.Pro:hover {
+	background-color: #131313;
+	transition: 1.3s all;
+}
+
+div.d4 div.Pro div.txt p.titre{
+	color: white;
+	font-size: 30px;
+	margin-left: 10px;
+}
+
+div.d4 div.Pro div.txt p.des{
+	color: white;
+	font-size: 20px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+div.d4 div.Pro div.txt a.btn{
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	padding: 2px;
+	margin-left: 30%;
+}
+div.d4 div.Pro div.txt:hover a.btn{
+	color: white;
+	background-color: black;
+	transition: 1.3s all;
+}
+
+/*Boutique*/
+div.d9{
+	background-image: url("http://tyrolium.fr/Contenu/Image/Boutique.png");
+	background-repeat: no-repeat;
+	background-size: 1500px;
+	padding: 100px;
+}
+
+div.d9 div.texte{
+	margin-right: 30%;
+	margin-left: 30%;
+	background-color: #212121;
+	padding: 30px;
+	color: white;
+}
+
+div.d9:hover div.texte{
+	background-color: #3C3C3C;
+	transition: 1.3s all;
+}
+
+div.d9 div.texte p.Titre{
+	font-size: 20px;
+	font-variant: small-caps;
+	font-family: Gill Sans, sans-serif;
+}
+
+div.d9 div.texte p.SousTitre{
+	font-size: 15px;
+	font-variant: small-caps;
+	font-family: Gill Sans, sans-serif;
+}
+div.d9 div.texte a.btn{
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	padding: 2px;
+	margin-left: 30%;
+	font-variant: small-caps;
+	font-family: Gill Sans, sans-serif;
+}
+div.d9 div.texte:hover a.btn{
+	color: white;
+	background-color: black;
+	transition: 1.3s all;
+}
+/*sitation*/
+div.d5{
+	background-image: url("http://tyrolium.fr/Contenu/Image/Background3.png");
+	background-size: 100%;
+	padding: 0px;
+}
+
+div.d5 div.sit{
+	margin-right: 50%;
+	background-color: #131313;
+	padding: 10px;
+	color: white;
+}
+
+div.d5:hover div.sit{
+	background-color: #3C3C3C;
+	transition: 1.3s all;
+}
+
+div.d5 div.sit div.titre{
+	color: white;
+	margin-left: 35%;
+
+	font-size: 25px;
+	font-variant: small-caps;
+	font-family: Gill Sans, sans-serif;
+
+}
+
+div.d5 div.sit div.MAX div.img{	
+	display: inline-block;
+	padding: 10px;
+	font-variant: small-caps;
+	font-family: Gill Sans, sans-serif;
+}
+div.d5 div.sit div.MAX div.txt{
+	display: inline-block;
+}
+div.d5 div.sit div.MAX div.txt p.Titre{
+	font-size: 20px;
+}
+div.d5 div.sit div.MAX div.txt p.SousTitre{
+	font-size: 15px;
+}
+div.d5 div.sit div.MAX div.txt p.Text{
+	font-size: 14px;
+}
+
+div.d5 div.sit div.PL div.img{	
+	display: inline-block;
+	padding: 10px;
+	font-variant: small-caps;
+	font-family: Gill Sans, sans-serif;
+}
+div.d5 div.sit div.PL div.txt{
+	display: inline-block;
+}
+div.d5 div.sit div.PL div.txt p.Titre{
+	font-size: 20px;
+}
+div.d5 div.sit div.PL div.txt p.SousTitre{
+	font-size: 15px;
+}
+div.d5 div.sit div.PL div.txt p.Text{
+	font-size: 14px;
+}
+
+div.d5 div.sit div.ETH div.img{	
+	display: inline-block;
+	padding: 10px;
+	font-variant: small-caps;
+	font-family: Gill Sans, sans-serif;
+}
+div.d5 div.sit div.ETH div.txt{
+	display: inline-block;
+}
+div.d5 div.sit div.ETH div.txt p.Titre{
+	font-size: 20px;
+}
+div.d5 div.sit div.ETH div.txt p.SousTitre{
+	font-size: 15px;
+}
+div.d5 div.sit div.ETH div.txt p.Text{
+	font-size: 14px;
+}
+/*Separation*/
+div.d6{
+	background-color: #131313;
+	padding: 10px;
+}
+
+/*credit*/
+div.d7{
+	background-image: url("http://tyrolium.fr/Contenu/Image/Background4.png");
+	background-size: 175%;
+	padding: 0px;
+}
+div.d7 div.txt{
+	padding-left: 35px;
+	margin-left: 30%;
+	background-color: #212121;
+	display: inline-block;
+	width: 50%;
+	padding-bottom: 60px;
+	color: white;
+	font-variant: small-caps;
+	font-family: Gill Sans, sans-serif;
+}
+
+div.d7:hover div.txt{
+	background-color: #3C3C3C;
+	transition: 1.3s all;
+}
+
+div.d7:hover div.txt div.NOM a.page{
+	background-color: #3C3C3C;
+	transition: 1.3s all;
+}
+div.d7 div.txt div.titre{
+	font-size: 30px;
+	margin: 30px;
+	margin-left: 40%;
+}
+
+div.d7 div.txt div.EMP{
+	font-size: 25px;
+	margin: 20px;
+	margin-left: 120px;
+}
+div.d7 div.txt div.NOM{
+	padding: 2px;
+	font-size: 22px;
+	margin: 8px;
+	margin-left: 100px;
+
+}
+div.d7 div.txt div.NOM a.page{
+	text-decoration: none;
+
+	color: white;
+	background-color: #212121;
+}
+/*Employé*/
+div.d8{
+	background-image: url("http://tyrolium.fr/Contenu/Image/Background1.png");
+	background-size: 100%;
+	padding: 0px;
+}
+div.d8 div.txt{
+	background-color: #212121;
+	color: white;
+	margin-left: 60px;
+	font-variant: small-caps;
+	font-family: Gill Sans, sans-serif;
+
+	width: 50%;
+	padding-left: 35px;	
+	padding-bottom: 60px;
+	padding-top: 20px;
+}
+
+div.d8 div.txt p.tot a.btn{	
+	text-decoration: none;
+	color: white;
+}
+
+/*Bas De Page*/
+footer{
+	margin-left: 10%;
+	background-color: #000000;
+	padding-left: 30px;
+	padding-top: 10px;
+	padding-bottom: 35px;
+	color: white;
+	font-variant: small-caps;
+	font-family: Gill Sans, sans-serif;
+	font-size: 20px;
+}

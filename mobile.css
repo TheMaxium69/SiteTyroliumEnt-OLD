@@ -1,0 +1,275 @@
+/*page entiere*/
+body{
+	background-image: url("http://tyrolium.fr/Contenu/Image/Background4.png");
+	padding: 0px;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	margin-bottom: 0;	
+}
+/*Haut de pase*/
+header div.head{
+	font-weight: 100;
+	font-variant: small-caps;
+	font-family: Gill Sans, sans-serif;
+	font-size: 20px;
+	background-color: #000000;	
+	color: #FFFFFF;
+	padding: 8px;
+}
+
+header div.head div.img{
+	font-weight: bold;
+}
+
+header div.head div.img img{
+	width: 30px;
+}
+
+
+/*Contenu*/
+
+/*Debut*/
+div.d1{
+	background-color: #131313;
+	padding: 0px;
+	color: #FFFFFF;
+}
+
+div.d1 div.txt{
+	padding-left: 35px;
+	margin-left: 40%;
+	background-color: #131313;
+	display: inline-block;
+	width: 50%;
+	color: #FFFFFF;
+	padding-bottom: 60px;
+}
+div.d1 p.Titre{
+	font-size: 18px;
+	padding-top: 30px;
+	margin-left: 10px;
+	font-weight: bold;
+	font-variant: small-caps;
+	font-family: Gill Sans, sans-serif;
+}
+div.d1 p.SousTitre{
+	font-size: 16px;
+	margin-left: 30px;
+	font-variant: small-caps;
+	font-family: Gill Sans, sans-serif;
+}
+div.d1 p.Text{
+	font-size: 15px;
+	margin-left: 40px;
+	margin-right: 40px;
+
+	padding-bottom: 30px;
+	font-variant: small-caps;
+	font-family: Gill Sans, sans-serif;
+}
+
+/*Separation*/
+div.d2{
+	background-color: #131313;
+	padding: 10px;
+}
+
+/*No projey mis en forme*/
+div.d3{
+	background-image: url("http://tyrolium.fr/Contenu/Image/Background1.png");
+	background-repeat: no-repeat;
+	background-size: 800px;
+	padding: 20px;
+}
+
+div.d3 div.texte{
+	margin-right: 5%;
+	margin-left: 5%;
+	background-color: #212121;
+	padding: 8px;
+	color: white;
+}
+
+
+div.d3 div.texte p.Titre{
+	font-size: 18px;
+	font-variant: small-caps;
+	font-family: Gill Sans, sans-serif;
+}
+
+div.d3 div.texte p.SousTitre{
+	font-size: 16px;
+	font-variant: small-caps;
+	font-family: Gill Sans, sans-serif;
+}
+
+
+/*Projet*/
+div.d4{
+	background-color: #212121;
+	padding: 10px;
+}
+
+div.d4 div.Pro{
+	background-color: #3C3C3C;
+	display: inline-block;
+	margin-left: 10%;
+	padding-bottom: 8px;
+	font-variant: small-caps;
+	font-family: Gill Sans, sans-serif;
+}
+
+div.d4 div.Pro div.txt p.titre{
+	color: white;
+	font-size: 30px;
+	margin-left: 10px;
+}
+
+div.d4 div.Pro div.txt p.des{
+	color: white;
+	font-size: 20px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+div.d4 div.Pro div.txt a.btn{
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	padding: 2px;
+	margin-left: 30%;
+}
+div.d4 div.Pro div.txt:hover a.btn{
+	color: white;
+	background-color: black;
+	transition: 1.3s all;
+}
+
+
+
+/*sitation*/
+div.d5{
+	background-color: #131313;
+	padding: 0px;
+	color: white;
+}
+
+div.d5 div.titre{
+	color: white;
+	margin-left: 35%;
+
+	font-size: 25px;
+	font-variant: small-caps;
+	font-family: Gill Sans, sans-serif;
+
+}
+
+div.d5 div.sit div.MAX div.img{	
+	display: inline-block;
+	padding: 10px;
+	font-variant: small-caps;
+	font-family: Gill Sans, sans-serif;
+}
+div.d5 div.MAX div.txt{
+	display: inline-block;
+}
+div.d5 div.MAX div.txt p.Titre{
+	font-size: 20px;
+}
+div.d5 div.MAX div.txt p.SousTitre{
+	font-size: 15px;
+}
+div.d5 div.MAX div.txt p.Text{
+	font-size: 14px;
+}
+
+/*div.d5 div.sit div.PL div.img{	
+	display: inline-block;
+	padding: 10px;
+	font-variant: small-caps;
+	font-family: Gill Sans, sans-serif;
+}
+div.d5 div.sit div.PL div.txt{
+	display: inline-block;
+}
+div.d5 div.sit div.PL div.txt p.Titre{
+	font-size: 20px;
+}
+div.d5 div.sit div.PL div.txt p.SousTitre{
+	font-size: 15px;
+}
+div.d5 div.sit div.PL div.txt p.Text{
+	font-size: 14px;
+}
+
+div.d5 div.sit div.ETH div.img{	
+	display: inline-block;
+	padding: 10px;
+	font-variant: small-caps;
+	font-family: Gill Sans, sans-serif;
+}
+div.d5 div.sit div.ETH div.txt{
+	display: inline-block;
+}
+div.d5 div.sit div.ETH div.txt p.Titre{
+	font-size: 20px;
+}
+div.d5 div.sit div.ETH div.txt p.SousTitre{
+	font-size: 15px;
+}
+div.d5 div.sit div.ETH div.txt p.Text{
+	font-size: 14px;
+}*/
+/*Separation*/
+div.d6{
+	background-color: #131313;
+	padding: 10px;
+}
+
+/*credit*/
+div.d7{
+	background-color: #212121;
+	padding: 0px;
+	color: white;
+	font-variant: small-caps;
+	font-family: Gill Sans, sans-serif;
+	padding-bottom: 20px;
+}
+
+div.d7 div.titre{
+	font-size: 30px;
+	margin: 30px;
+	margin-left: 30%;
+}
+
+div.d7 div.EMP{
+	font-size: 25px;
+	margin: 20px;
+	margin-left: 40px;
+}
+div.d7 div.NOM{
+	padding: 2px;
+	font-size: 22px;
+	margin: 8px;
+	margin-left: 20px;
+
+}
+div.d7 div.NOM a.page{
+	text-decoration: none;
+
+	color: white;
+	background-color: #212121;
+}
+
+/*Bas De Page*/
+footer{
+	background-color: #000000;
+	padding-left: 30px;
+	padding-top: 10px;
+	padding-bottom: 35px;
+	color: white;
+	font-variant: small-caps;
+	font-family: Gill Sans, sans-serif;
+	font-size: 20px;
+}
